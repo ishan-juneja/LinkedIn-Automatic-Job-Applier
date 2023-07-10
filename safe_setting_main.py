@@ -5,10 +5,11 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
+import os
 import time
 
-linkedin_email = "ishanj101@gmail.com"
-linkedin_password = "Balderdash2004"
+linkedin_email = os.environ["LINKEDIN_EMAIL"]
+linkedin_password = os.environ["LINKEDIN_PASSWORD"]
 
 chrome_driver_path = "/Users/ishanjuneja/Development/chromedriver_mac64"
 # linkedin_job_path = input("Enter the linkedIn link you wish to apply through using Easy Apply: ")
@@ -70,7 +71,7 @@ for listing in final_listings:
 		for bar in bars:
 			if bar.get_attribute('value') == "":
 				# Enter your number here
-				bar.send_keys("4089962669")
+				bar.send_keys(os.environ["PHONE_NUMBER"])
 				break
 
 		# Get past entering number
