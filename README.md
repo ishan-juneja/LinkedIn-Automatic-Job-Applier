@@ -21,8 +21,11 @@ Configuring my link within LinkedIn. Here, I am choosing to apply for Easy to Ap
 Entering my link into the console
 <img width="1405" alt="Screenshot 2023-07-10 at 11 52 39 AM" src="https://github.com/ishan-juneja/LinkedIn-Automatic-Job-Applier/assets/69048541/ba634e4b-17f5-49a3-9b29-4e003550507e">
 
-Demoing the `safe_setting_main.py`
-https://github.com/ishan-juneja/LinkedIn-Automatic-Job-Applier/assets/69048541/8738a3ab-7add-431d-a881-1dd760360d54
+Demo video of `safe_setting_main.py`
+
+https://github.com/ishan-juneja/LinkedIn-Automatic-Job-Applier/assets/69048541/a4d007f6-a3c7-4edf-b05d-f605382098a8
+
+
 
 ## Future Improvements
 1. Being able to apply for Easy-To-Apply Jobs that also take in your address and have more than just your resume and number fields.
