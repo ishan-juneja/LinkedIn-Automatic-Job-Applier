@@ -12,8 +12,8 @@ linkedin_email = os.environ["LINKEDIN_EMAIL"]
 linkedin_password = os.environ["LINKEDIN_PASSWORD"]
 
 chrome_driver_path = "/Users/ishanjuneja/Development/chromedriver_mac64"
-# linkedin_job_path = input("Enter the linkedIn link you wish to apply through using Easy Apply: ")
-linkedin_job_path = "https://www.linkedin.com/jobs/search/?currentJobId=3645477451&f_AL=true&f_E=1%2C2&f_JT=P%2CI&geoId=103644278&keywords=python%20developer&location=United%20States&refresh=true&sortBy=R"
+linkedin_job_path = input("Enter the linkedIn link you wish to apply through using Easy Apply: ")
+#linkedin_job_path = "https://www.linkedin.com/jobs/search/?currentJobId=3645477451&f_AL=true&f_E=1%2C2&f_JT=P%2CI&geoId=103644278&keywords=python%20developer&location=United%20States&refresh=true&sortBy=R"
 
 service = Service(chrome_driver_path)
 driver = webdriver.Chrome(service=service)
